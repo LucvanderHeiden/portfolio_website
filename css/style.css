@@ -935,7 +935,13 @@ ul.property-list li {
 
 .back-button .b-icon p
 {
-    line-height: 40px;
+    width: 0; 
+    height: 0;
+    margin-top: 10px;
+    margin-left: 6px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid var(--text-black-900);
 }
 
 .back-button .back-button-pos
